@@ -1,0 +1,31 @@
+{
+    "blogs": [
+        {
+            "id": 0,
+            "heading": "The best way to predict the future is to create it",
+            "author": "Peter Drucker",
+            "content": "yes"
+        },
+
+        {
+            "id": 1,
+            "heading": "The best way to predict the future is to create it",
+            "author": "Peter Drucker",
+            "content": "yes"
+        },
+
+        {
+            "id": 2,
+            "heading": "The best way to predict the future is to create it",
+            "author": "Peter Drucker",
+            "content": "yes"
+        },
+
+        {
+            "id": 3,
+            "heading": "The best way to predict the future is to create it",
+            "author": "Peter Drucker",
+            "content": "yes"
+        }
+    ]
+}

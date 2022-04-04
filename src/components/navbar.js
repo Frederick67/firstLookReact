@@ -19,7 +19,7 @@ const Navbar = ( { onSearch, onAddBlog, blogsLength } ) => {
             heading: heading,
             author: author,
             content: content
-          })} class="btn btn-dark">New</button>
+          })} className="btn btn-dark">New</button>
           <input  className="form-control me-2" type="search" placeholder="Search" aria-label="Search" onChange={(event) => onSearch(event.target.value)}></input>
         </form>
         
