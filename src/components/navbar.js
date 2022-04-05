@@ -14,6 +14,7 @@ const Navbar = ( { onSearch, onAddBlog, blogsLength } ) => {
           <input  className="form-control me-2" type="search" placeholder="Title" aria-label="Search" onChange={(event) => setHeading(event.target.value)}></input>
           <input  className="form-control me-2" type="search" placeholder="Author" aria-label="Search" onChange={(event) => setAuthor(event.target.value)}></input>
           <input  className="form-control me-2" type="search" placeholder="Body" aria-label="Search" onChange={(event) => setContent(event.target.value)}></input>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           <button type="button" style={{marginRight: "40px"}}  onClick={() => onAddBlog({
             id: blogsLength, 
             heading: heading,
